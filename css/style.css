@@ -1,6 +1,22 @@
-
 /*Global*/
 
-font-text: "droid-serif", serif;
-font-header: 'Montserrat', sans-serif;
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/*Body*/
+body{
+	color:black;
+}
+	
+.section-title {
+	font-size: 40px;
+	margin: 14px 0;
+}
+
+.section-sublitle {
+	font-size: 18px;
+	font-style: bold;
+}
+
+body p {
+	font-size: 14px;
+}
+
+/*Navigation*/
