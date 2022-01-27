@@ -4,21 +4,9 @@
 body{
 	color:black;
 }
-	
-.section-title {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
-	margin: 10px 0;
-}
-
-.section-subtitle {
-	font-family: "droid-serif", serif;
-	font-size: 18px;
-	font-style: bold;
-}
 
 body p {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 /*Navigation*/
@@ -54,6 +42,8 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Montserrat';
+	background-position: center center;
+  
 }
 
 	header .container  .splash-inner {
@@ -110,28 +100,38 @@ header {
 
 .services .col-4 i {
 	width:70px;
-	height:60px;
-	font-size: 30px;
+	height:70px;
+	line-height: 60px;
+	font-size: 35px;
 	border-radius: 100%;
 	background-color: white;
 	border: solid;
 	border-color:#e7bc22 ;
-	line-height: 40px;
 	color:#e7bc22;
-	
-
+	justify-content: center;
+	text-align: center;
 }
+
+/*Nie moge wysrodkowac ikony dlaczego?*/
 
 .col-4 {
 	width: 33.3333%;
 	display: inline-block;
 }
 
+.services .container .row h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	margin: 10px 0;
+}
+
+
 .services .container .row h5 {
 	font-size: 20px;
 	font-style: italic;
 	color:#5f5f5ee3;
 	margin: 10px 0 70px 0;
+	font-family: "droid-serif", serif;
 
 }
 
@@ -150,6 +150,10 @@ header {
 
 /*Footer*/
 
+footer {
+	background-color: #FFFFFF;
+}
+
 footer ul li {
 	display: inline-flex;
 	list-style-type:none;
@@ -157,9 +161,9 @@ footer ul li {
 }
 
 footer ul li i {
-	width:40px;
-	height:40px;
-	font-size: 20px;
+	width:50px;
+	height:50px;
+	font-size: 25px;
 	border-radius: 100%;
 	background-color: black;
 	text-align: center;
@@ -168,10 +172,11 @@ footer ul li i {
 	justify-content: center;
 }
 
-footer {
-	background-color: #FFFFFF;
-}
 
-footer p {
-	padding: 5%;
+
+.pt-3 .container .row p {
+	padding: 5px;
+	font-family: 'Montserrat', sans-serif;
+	
+
 }
