@@ -6,11 +6,13 @@ body{
 }
 	
 .section-title {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
-	margin: 14px 0;
+	margin: 10px 0;
 }
 
-.section-sublitle {
+.section-subtitle {
+	font-family: "droid-serif", serif;
 	font-size: 18px;
 	font-style: bold;
 }
@@ -20,3 +22,156 @@ body p {
 }
 
 /*Navigation*/
+
+
+nav .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav .container .navigation {
+	list-style-type: none;
+	width: 100%;
+	display:flex;
+	justify-content: end;
+}
+
+nav .container .navigation .nav-item {
+	float: right;
+	padding-right: 20px;
+}
+
+nav .container .navigation .nav-item .nav-link {
+	text-decoration: none;
+	color: white;
+}
+
+/*Header*/
+
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/Background_Image.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Montserrat';
+}
+
+	header .container  .splash-inner {
+		width: 100%;
+		text-align: left;
+		margin: 16px 0;
+	}
+
+	header .container h3 {
+		font-family: 'Amiri';
+		font-style: italic;
+		font-size: 50px;
+		margin: 20px 0;
+	}
+	
+	header .container h2 {
+		font-size: 75px;
+		margin: 10px 0;
+	}
+	
+	header .row {
+		text-align: center;
+		color: white;
+	}
+	
+	header .container .row {
+		padding: 158px 0;
+		justify-content: center;
+	}
+	
+	header .container .row .btn {
+		width: 243px;
+		height: 63px;
+		background-color: #e7bc22;
+		border-radius: 5%;
+		color:white;
+		font-weight: 400;
+		padding: 20px 0;
+		text-decoration: none;
+		font-size: 22px;
+	}
+
+/*Services*/
+
+.services {
+	background-color: white;
+	padding: 6% 0;
+}
+
+.services .container .row {
+	text-align: center;
+	display: inline;
+}
+
+.services .col-4 i {
+	width:70px;
+	height:60px;
+	font-size: 30px;
+	border-radius: 100%;
+	background-color: white;
+	border: solid;
+	border-color:#e7bc22 ;
+	line-height: 40px;
+	color:#e7bc22;
+	
+
+}
+
+.col-4 {
+	width: 33.3333%;
+	display: inline-block;
+}
+
+.services .container .row h5 {
+	font-size: 20px;
+	font-style: italic;
+	color:#5f5f5ee3;
+	margin: 10px 0 70px 0;
+
+}
+
+.services .container .row  h6 {
+	font-size: 18px;
+	margin: 15px 0 15px 0;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.services .container .row  p {
+	font-family: "droid-serif", serif;
+	color:#5f5f5ee3;
+
+}
+
+/*Footer*/
+
+footer ul li {
+	display: inline-flex;
+	list-style-type:none;
+	font-size:0;
+}
+
+footer ul li i {
+	width:40px;
+	height:40px;
+	font-size: 20px;
+	border-radius: 100%;
+	background-color: black;
+	text-align: center;
+	padding: 25% 0;
+	color:white;
+	justify-content: center;
+}
+
+footer {
+	background-color: #FFFFFF;
+}
+
+footer p {
+	padding: 5%;
+}
