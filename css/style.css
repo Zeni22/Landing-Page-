@@ -138,10 +138,9 @@ header {
 }
 
 .services .container .row  h6 {
-	font-size: 18px;
+	font-size: 22px;
 	margin: 15px 0 15px 0;
 	font-family: 'Montserrat', sans-serif;
-
 }
 
 /*Cards*/
@@ -227,9 +226,7 @@ footer ul li i {
 	justify-content: center;
 }
 
-
-
-.pt-3 .container .row p {
+footer p {
 	padding: 5px;
 	font-family: 'Montserrat', sans-serif;
 	color:black;
